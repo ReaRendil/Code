@@ -14,15 +14,15 @@ public class Main {
 		int N = Integer.parseInt(st.nextToken());
 		String d = br.readLine();
 		String [] Distance = d.split(" ");
-		int [] distance = new int [N-1];
+		long [] distance = new long [N-1];
 		for(int i = 0;i<distance.length;i++) {
-			distance[i] = Integer.parseInt(Distance[i]);
+			distance[i] = Long.parseLong(Distance[i]);
 		}
 		String p = br.readLine();
 		String [] Price = p.split(" ");
-		int [] price = new int [N];
+		long [] price = new long [N];
 		for(int i = 0;i<Price.length;i++) {
-			price[i] = Integer.parseInt(Price[i]);
+			price[i] = Long.parseLong(Price[i]);
 		}
 		long sum = 0;
 		int n = 0;
